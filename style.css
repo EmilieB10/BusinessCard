@@ -1,0 +1,32 @@
+body {
+  margin: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  margin: 20px;
+}
+
+.card {
+  border-bottom: 16px solid transparent;
+  border-image: linear-gradient(90deg, #c77dff, #e7c6ff);
+  border-image-slice: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #e7c6ff;
+  color: #02010a;
+  height: 200px;
+}
+
+.avatar {
+  width: 150px;
+  border-radius: 4px;
+}
+
+.info {
+  text-shadow: #c77dff 1px 0 10px;
+}
